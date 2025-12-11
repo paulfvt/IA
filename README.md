@@ -4,7 +4,13 @@
 
 ### Members: 
 
-| Name | Organization | Email | |--------------------------|------------------------|----------------------------------------| | Paul Fievet | Computer of Science | paul.fievet@edu.ece.fr | | Thomas Pernod | Computer of Science | thomas.pernod@edu.ece.fr | | Mélissande LEMAIRE-VALLE | Computer of Science | melissande.lemairevalle@edu.ece.fr | | Manon QUESNE | Computer of Science | manon.quesne@edu.ece.fr | | Bertille METIER | Computer of Science | bertille.metier@edu.ece.fr|
+| Name | Organization | Email | 
+|--------------------------|------------------------|----------------------------------------|
+| Paul Fievet | Computer of Science | paul.fievet@edu.ece.fr | 
+| Thomas Pernod | Computer of Science | thomas.pernod@edu.ece.fr | 
+| Mélissande LEMAIRE-VALLE | Computer of Science | melissande.lemairevalle@edu.ece.fr | 
+| Manon QUESNE | Computer of Science | manon.quesne@edu.ece.fr | 
+| Bertille METIER | Computer of Science | bertille.metier@edu.ece.fr|
 
 
 ### 1. Introduction: 
