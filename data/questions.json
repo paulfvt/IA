@@ -1,0 +1,345 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "You regularly make new friends.",
+      "type": "qcm"
+    },
+    {
+      "id": 2,
+      "text": "You spend a lot of your free time exploring various random topics that pique your interest",
+      "type": "qcm"
+    },
+    {
+      "id": 3,
+      "text": "Seeing other people cry can easily make you feel like you want to cry too",
+      "type": "qcm"
+    },
+    {
+      "id": 4,
+      "text": "You often make a backup plan for a backup plan.",
+      "type": "qcm"
+    },
+    {
+      "id": 5,
+      "text": "You usually stay calm, even under a lot of pressure",
+      "type": "qcm"
+    },
+    {
+      "id": 6,
+      "text": "At social events, you rarely try to introduce yourself to new people and mostly talk to the ones you already know",
+      "type": "qcm"
+    },
+    {
+      "id": 7,
+      "text": "You prefer to completely finish one project before starting another.",
+      "type": "qcm"
+    },
+    {
+      "id": 8,
+      "text": "You are very sentimental.",
+      "type": "qcm"
+    },
+    {
+      "id": 9,
+      "text": "You like to use organizing tools like schedules and lists.",
+      "type": "qcm"
+    },
+    {
+      "id": 10,
+      "text": "Even a small mistake can cause you to doubt your overall abilities and knowledge.",
+      "type": "qcm"
+    },
+    {
+      "id": 11,
+      "text": "You feel comfortable just walking up to someone you find interesting and striking up a conversation.",
+      "type": "qcm"
+    },
+    {
+      "id": 12,
+      "text": "You are not too interested in discussing various interpretations and analyses of creative works.",
+      "type": "qcm"
+    },
+    {
+      "id": 13,
+      "text": "You are more inclined to follow your head than your heart.",
+      "type": "qcm"
+    },
+    {
+      "id": 14,
+      "text": "You usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine.",
+      "type": "qcm"
+    },
+    {
+      "id": 15,
+      "text": "You rarely worry about whether you make a good impression on people you meet.",
+      "type": "qcm"
+    },
+    {
+      "id": 16,
+      "text": "You enjoy participating in group activities.",
+      "type": "qcm"
+    },
+    {
+      "id": 17,
+      "text": "You like books and movies that make you come up with your own interpretation of the ending.",
+      "type": "qcm"
+    },
+    {
+      "id": 18,
+      "text": "Your happiness comes more from helping others accomplish things than your own accomplishments.",
+      "type": "qcm"
+    },
+    {
+      "id": 19,
+      "text": "You are interested in so many things that you find it difficult to choose what to try next.",
+      "type": "qcm"
+    },
+    {
+      "id": 20,
+      "text": "You are prone to worrying that things will take a turn for the worse.",
+      "type": "qcm"
+    },
+    {
+      "id": 21,
+      "text": "You avoid leadership roles in group settings.",
+      "type": "qcm"
+    },
+    {
+      "id": 22,
+      "text": "You are definitely not an artistic type of person.",
+      "type": "qcm"
+    },
+    {
+      "id": 23,
+      "text": "You think the world would be a better place if people relied more on rationality and less on their feelings.",
+      "type": "qcm"
+    },
+    {
+      "id": 24,
+      "text": "You prefer to do your chores before allowing yourself to relax.",
+      "type": "qcm"
+    },
+    {
+      "id": 25,
+      "text": "You enjoy watching people argue.",
+      "type": "qcm"
+    },
+    {
+      "id": 26,
+      "text": "You tend to avoid drawing attention to yourself.",
+      "type": "qcm"
+    },
+    {
+      "id": 27,
+      "text": "Your mood can change very quickly.",
+      "type": "qcm"
+    },
+    {
+      "id": 28,
+      "text": "You lose patience with people who are not as efficient as you.",
+      "type": "qcm"
+    },
+    {
+      "id": 29,
+      "text": "You often end up doing things at the last possible moment.",
+      "type": "qcm"
+    },
+    {
+      "id": 30,
+      "text": "You have always been fascinated by the question of what, if anything, happens after death.",
+      "type": "qcm"
+    },
+    {
+      "id": 31,
+      "text": "You usually prefer to be around others rather than on your own.",
+      "type": "qcm"
+    },
+    {
+      "id": 32,
+      "text": "You become bored or lose interest when the discussion gets highly theoretical.",
+      "type": "qcm"
+    },
+    {
+      "id": 33,
+      "text": "You find it easy to empathize with a person whose experiences are very different from yours.",
+      "type": "qcm"
+    },
+    {
+      "id": 34,
+      "text": "You usually postpone finalizing decisions for as long as possible.",
+      "type": "qcm"
+    },
+    {
+      "id": 35,
+      "text": "You rarely second-guess the choices that you have made.",
+      "type": "qcm"
+    },
+    {
+      "id": 36,
+      "text": "After a long and exhausting week, a lively social event is just what you need.",
+      "type": "qcm"
+    },
+    {
+      "id": 37,
+      "text": "You enjoy going to art museums.",
+      "type": "qcm"
+    },
+    {
+      "id": 38,
+      "text": "You often have a hard time understanding other people s feelings.",
+      "type": "qcm"
+    },
+    {
+      "id": 39,
+      "text": "You like to have a to-do list for each day.",
+      "type": "qcm"
+    },
+    {
+      "id": 40,
+      "text": "You rarely feel insecure.",
+      "type": "qcm"
+    },
+    {
+      "id": 41,
+      "text": "You avoid making phone calls.",
+      "type": "qcm"
+    },
+    {
+      "id": 42,
+      "text": "You often spend a lot of time trying to understand views that are very different from your own.",
+      "type": "qcm"
+    },
+    {
+      "id": 43,
+      "text": "In your social circle, you are often the one who contacts your friends and initiates activities.",
+      "type": "qcm"
+    },
+    {
+      "id": 44,
+      "text": "If your plans are interrupted, your top priority is to get back on track as soon as possible.",
+      "type": "qcm"
+    },
+    {
+      "id": 45,
+      "text": "You are still bothered by mistakes that you made a long time ago.",
+      "type": "qcm"
+    },
+    {
+      "id": 46,
+      "text": "You rarely contemplate the reasons for human existence or the meaning of life.",
+      "type": "qcm"
+    },
+    {
+      "id": 47,
+      "text": "Your emotions control you more than you control them.",
+      "type": "qcm"
+    },
+    {
+      "id": 48,
+      "text": "You take great care not to make people look bad, even when it is completely their fault.",
+      "type": "qcm"
+    },
+    {
+      "id": 49,
+      "text": "Your personal work style is closer to spontaneous bursts of energy than organized and consistent efforts.",
+      "type": "qcm"
+    },
+    {
+      "id": 50,
+      "text": "When someone thinks highly of you, you wonder how long it will take them to feel disappointed in you.",
+      "type": "qcm"
+    },
+    {
+      "id": 51,
+      "text": "You would love a job that requires you to work alone most of the time.",
+      "type": "qcm"
+    },
+    {
+      "id": 52,
+      "text": "You believe that pondering abstract philosophical questions is a waste of time.",
+      "type": "qcm"
+    },
+    {
+      "id": 53,
+      "text": "You feel more drawn to places with busy, bustling atmospheres than quiet, intimate places.",
+      "type": "qcm"
+    },
+    {
+      "id": 54,
+      "text": "You know at first glance how someone is feeling.",
+      "type": "qcm"
+    },
+    {
+      "id": 55,
+      "text": "You often feel overwhelmed.",
+      "type": "qcm"
+    },
+    {
+      "id": 56,
+      "text": "You complete things methodically without skipping over any steps.",
+      "type": "qcm"
+    },
+    {
+      "id": 57,
+      "text": "You are very intrigued by things labeled as controversial.",
+      "type": "qcm"
+    },
+    {
+      "id": 58,
+      "text": "You would pass along a good opportunity if you thought someone else needed it more.",
+      "type": "qcm"
+    },
+    {
+      "id": 59,
+      "text": "You struggle with deadlines.",
+      "type": "qcm"
+    },
+    {
+      "id": 60,
+      "text": "You feel confident that things will work out for you.",
+      "type": "qcm"
+    },
+
+    {
+      "id": 61,
+      "text": "EXTRAVERSION / INTROVERSION – Question 1:\nDescribe how you feel and behave during a big social event (party, networking, group gathering). What do you naturally do, and how do you feel afterwards?",
+      "type": "text"
+    },
+    {
+      "id": 62,
+      "text": "EXTRAVERSION / INTROVERSION – Question 2:\nAfter a long and stressful day, what is your ideal way to recharge? Do you prefer being around people or being alone? Describe a concrete example.",
+      "type": "text"
+    },
+    {
+      "id": 63,
+      "text": "SENSING / INTUITION – Question 1:\nTell a story where you had to learn something new (a skill, a subject, a tool). Did you focus more on concrete details and examples, or on the big picture and underlying ideas?",
+      "type": "text"
+    },
+    {
+      "id": 64,
+      "text": "SENSING / INTUITION – Question 2:\nWhen you imagine your future (in a few years), what do you tend to think about first: specific, practical things or abstract possibilities and scenarios?",
+      "type": "text"
+    },
+    {
+      "id": 65,
+      "text": "THINKING / FEELING – Question 1:\nDescribe a difficult decision you recently made. What had the biggest weight in your choice: logic and objective criteria, or people’s feelings and harmony?",
+      "type": "text"
+    },
+    {
+      "id": 66,
+      "text": "THINKING / FEELING – Question 2:\nWhen someone close to you makes a mistake, what is your first impulse: point out what went wrong and how to fix it, or take care of their emotions first?",
+      "type": "text"
+    },
+    {
+      "id": 67,
+      "text": "JUDGING / PERCEIVING – Question 1:\nTell me how you usually organize a big task (exam, project, trip…). Do you like to plan and structure everything, or keep things open and adapt as you go?",
+      "type": "text"
+    },
+    {
+      "id": 68,
+      "text": "JUDGING / PERCEIVING – Question 2:\nDescribe a moment where your plans changed at the last minute. How did you react and adapt (or not) to this change?",
+      "type": "text"
+    }
+  ]
+}
