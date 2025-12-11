@@ -79,7 +79,7 @@ How do we use it?
 - We clean the dataset and export it as 16P_converted.csv.
 - We remove the “Response Id” column and keep only the numerical question responses.
 - We scale all features using StandardScaler.
-- We train a GradientBoostingClassifier (300 trees, learning_rate=0.05). 
+- We train a RandomForest (300 trees, learning_rate=0.05). 
 
 Because of the large dataset size, the model is more stable and generalizes well. 
 
@@ -96,7 +96,7 @@ It includes two types of inputs:
 
 Role in the system? 
 
-- The QCM questions mirror the structure of the training dataset, allowing the gradient boosting model to make accurate predictions.
+- The QCM questions mirror the structure of the training dataset, allowing the RandomForest model to make accurate predictions.
 - The open-ended questions give personal text samples that are processed by the NLP model.
 - Both types of answers are combined later through a model fusion system.
 - This dataset acts as the bridge between the training data and real user interaction. 
@@ -139,7 +139,7 @@ fused_probas = weight_qcm * prob_qcm + (1 - weight_qcm) * prob_text
 
 where weight_qcm is chosen by the user in the sidebar. After renormalization, we take the MBTI type with the highest probability and also display the top 5 types, which provides a more nuanced view of the result.  
 
-(Photo on PDF)
+(Check Design_Analysis_1.png)
 
 ### 4. Graph Analysis
 
@@ -178,6 +178,11 @@ where weight_qcm is chosen by the user in the sidebar. After renormalization, we
 
 └── requirements.py  
 
+(Check Design_Analysis_2.png)
+(Check QCM_Model_Pipeline_3.png)
+(Check  QCM_Model_Pipeline_4.png)
+
+
 ##### Diagram of how the MBTI AI project works: 
 
 
@@ -214,19 +219,19 @@ We also used the courses and documents available on LMS by the professor for the
 Our MBTI prediction project was developed using several Python libraries. It includes essential tools for data management (pandas, numpy), Machine Learning libraries (scikit-learn, sentence-transformers, joblib), an interactive user interface via Streamlit, and a high-performance API deployment architecture using FastAPI and Uvicorn. 
 
 
-| Category                     | Tool                       | Usage in the Code                                                                                                                                                                             | Role                                                                                      |
-|------------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| Data & Computation           | pandas                     | Reading source files (pd.read_csv), data preparation, and crucially, creating the QCM response DataFrame from user input.                                                                     | Fundamental library for data manipulation and analysis using DataFrames.                  |
-|                              | numpy                      | Manipulating embedding vectors, managing probability arrays, and performing calculations during fusion (np.argmax(), weighted operations).                                                    | The foundation for scientific computing in Python, providing high-performance arrays.     |
-|                              | json                       | Loading the questionnaire content from the questions.json file.                                                                                                                               | Allows reading and writing data in the JSON format.                                       |
-| Machine Learning Core        | scikit-learn (via modules) | Provides algorithms (GradientBoostingClassifier, SVC), preprocessing (StandardScaler, Pipeline), and evaluation tools.                                                                        | The go-to library for classical Machine Learning (models, preprocessing, metrics).        |
-|                              | sentence-transformers      | Loading a model (e.g., all-MiniLM-L6-v2) to transform the user's free text into numerical vectors.                                                                                            | Specialized library for creating sentence embeddings (vector representations of meaning). |
-|                              | joblib                     | Saving (dump) and loading (load) the trained models (.joblib) and the preprocessor.                                                                                                           | Tool for fast serialization of large Python objects, ideal for ML models.                 |
-| API Development (Backend)    | fastapi                    | Used to define the endpoints that will receive user data and return the MBTI predictions.                                                                                                     | Modern, high-performance Python framework for building web APIs.                          |
-|                              | uvicorn[standard]          | Used to run and serve the FastAPI application, making it accessible via HTTP.                                                                                                                 | Ultra-fast ASGI Web Server (Asynchronous Server Gateway Interface).                       |
-|                              | tensorflow / tf-keras      | Used if you had chosen deep neural network models. Often included as an indirect dependency for advanced text embedding models.                                                               | Frameworks for Deep Learning.                                                             |
-| User Interface & Resources   | Streamlit                  | Creating the user interface (ui.py): sliders, text areas, weight management, and displaying results.                                                                                          | Provides tools for interacting with the operating system.                                 |
-|                              | os (Operating System)                        | Managing file paths (os.path.join()) and creating necessary directories (os.makedirs()).                                                                                                      | Allows reading and writing data in the JSON format.                                       |
+| Category                     | Tool                       | Usage in the Code                                                                                                                          | Role                                                                                      |
+|------------------------------|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Data & Computation           | pandas                     | Reading source files (pd.read_csv), data preparation, and crucially, creating the QCM response DataFrame from user input.                  | Fundamental library for data manipulation and analysis using DataFrames.                  |
+|                              | numpy                      | Manipulating embedding vectors, managing probability arrays, and performing calculations during fusion (np.argmax(), weighted operations). | The foundation for scientific computing in Python, providing high-performance arrays.     |
+|                              | json                       | Loading the questionnaire content from the questions.json file.                                                                            | Allows reading and writing data in the JSON format.                                       |
+| Machine Learning Core        | scikit-learn (via modules) | Provides algorithms (RandomForest, SVC), preprocessing (StandardScaler, Pipeline), and evaluation tools.                                   | The go-to library for classical Machine Learning (models, preprocessing, metrics).        |
+|                              | sentence-transformers      | Loading a model (e.g., all-MiniLM-L6-v2) to transform the user's free text into numerical vectors.                                         | Specialized library for creating sentence embeddings (vector representations of meaning). |
+|                              | joblib                     | Saving (dump) and loading (load) the trained models (.joblib) and the preprocessor.                                                        | Tool for fast serialization of large Python objects, ideal for ML models.                 |
+| API Development (Backend)    | fastapi                    | Used to define the endpoints that will receive user data and return the MBTI predictions.                                                  | Modern, high-performance Python framework for building web APIs.                          |
+|                              | uvicorn[standard]          | Used to run and serve the FastAPI application, making it accessible via HTTP.                                                              | Ultra-fast ASGI Web Server (Asynchronous Server Gateway Interface).                       |
+|                              | tensorflow / tf-keras      | Used if you had chosen deep neural network models. Often included as an indirect dependency for advanced text embedding models.            | Frameworks for Deep Learning.                                                             |
+| User Interface & Resources   | Streamlit                  | Creating the user interface (ui.py): sliders, text areas, weight management, and displaying results.                                       | Provides tools for interacting with the operating system.                                 |
+|                              | os (Operating System)                        | Managing file paths (os.path.join()) and creating necessary directories (os.makedirs()).                                                   | Allows reading and writing data in the JSON format.                                       |
 
 
 
